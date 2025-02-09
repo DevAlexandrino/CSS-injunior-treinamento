@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -179,6 +184,8 @@ main p {
     background-color: #ECECEC;
     border-radius: 4px;
     resize: none;
+    line-height: 50px;
+    border: none;
 }
 
 .feedback form input {
@@ -187,10 +194,40 @@ main p {
     padding: 5px;
     background-color: #ECECEC;
     border-radius: 4px;
+    border: none;
 }
 
 .feedback form button {
     width: 130px;
     height: 40px;
     margin-left: 980px;
+    border: none;
+}
+
+/*-------------------------------------FOOTER-------------------------------------*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C4C4C4;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 50px;
+}
+
+footer div a img {
+    width: 32px;
+    height: 32px;
+}
+
+footer button{
+    background-color: #DFDFDF;
+    width: 160px;
+    height: 40px;
+    border: none;
+
 }
